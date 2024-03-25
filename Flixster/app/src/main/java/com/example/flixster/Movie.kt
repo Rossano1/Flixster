@@ -1,6 +1,5 @@
 package com.example.flixster
 
-import android.graphics.drawable.AnimatedImageDrawable
-import android.media.Image
+import org.json.JSONArray
 
-data class Movie (var title: String, var description: String, var poster: String)
+data class Movie(var title: String, var description: String, var poster: String, var rating:Double, var genres: List<String>)

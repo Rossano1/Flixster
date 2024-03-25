@@ -1,30 +1,34 @@
-# Android Project 3 - *Name of App Here*
+# Android Project 4 - *Name of App Here*
 
-Submitted by: **Your Name Here**
+Submitted by: **Donovan Jones**
 
-**Name of your app** is a movie browsing app that allows users to browse movies currently playing in theaters.
+**Flixster** is a movie browsing app that allows users to browse ... [TODO] 
 
-Time spent: **6** hours spent in total
+Time spent: **9** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **Make a request to [The Movie Database API's `now_playing`](https://developers.themoviedb.org/3/movies/get-now-playing) endpoint to get a list of current movies**
-- [ ] **Parse through JSON data and implement a RecyclerView to display all movies**
-- [ ] **Use Glide to load and display movie poster images**
+- [ ] **Choose any endpoint on The MovieDB API except `now_playing`**
+  - Chosen Endpoint: `[ /3/discover/movie]`
+- [] **Make a request to your chosen endpoint and implement a RecyclerView to display all entries**
+- [ ] **Use Glide to load and display at least one image per entry**
+- [ ] **Click on an entry to view specific details about that entry using Intents**
 
 
+The following **additional** features are implemented:
 
+- [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/RE1F559.gif' title='Video Walkthrough' width='50%' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/Why1iER.gif' title='Video Walkthrough' width='50%' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with https://imgur.com/ 
+GIF created with ...  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
